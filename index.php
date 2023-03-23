@@ -8,26 +8,11 @@
         <?php
             date_default_timezone_set("Asia/Dhaka");
 
-            $ramadanStart = strtotime("5:57 pm 20 feb 2023");
-            $ramadanEnd = strtotime("5:57 pm 20 april 2023");
+            $ramadanStart = strtotime("6:15 pm 24 march 2023");
+            $ramadanEnd = strtotime("6:21 pm 21 april 2023");
             
-            $seheriTime = strtotime("3:45 am");
-            $iftarTime = strtotime("5:57 pm");
-
-
-            // The API endpoints for Ramadan start and end dates, and Iftar and Sehri times
-            // $json_result = file_get_contents('url');
-
-            // decoding JSON result into associative array
-            // $ramadan_data = json_decode($json_result, true);
-
-            // Extracting Ramadan start and end dates
-            // $ramadanStart = strtotime($response['start_on']);
-            // $ramadanEnd = strtotime($response['end_on']);
-
-            // Extracting seheri and iftar times
-            // $seheriTime = strtotime($response['seheri']);
-            // $iftarTime = strtotime($response['iftar']);
+            $seheriTime = strtotime("4:38 am");
+            $iftarTime = strtotime("6:15 pm");
 
             // Calculate time until Ramadan start
             $currentTime = time();
